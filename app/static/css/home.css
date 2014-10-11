@@ -1,0 +1,41 @@
+body{
+  font-family:"ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif
+}
+
+#mp_content{
+  overflow:auto;
+  overflow-y:auto;
+  overflow-x:auto;
+  font-size:12px;
+  color:rgb(0,119,34);
+}
+
+//shadow effect
+.mp_shadow_a{
+  border-width: 1px;
+  border-style: solid;
+  padding: 1px;
+  padding:1px;
+  background-color: #F3F3F3; 
+  border-color: #FBFBFB;
+}
+
+.mp_shadow_b{
+  border-width: 1px; 
+  border-style: solid; 
+  padding: 1px;
+  padding:1px;
+  background-color: #D8D8D8; 
+  border-color: #E8E8E8;
+}
+
+.mp_shadow_c{
+  border-width: 1px; 
+  border-style: solid; 
+  padding: 1px;
+  padding:1px;
+  background-color: #FFF; 
+  border-color: #BBB;
+  color：#ff0000;
+}
+//shadow effect over

@@ -1,0 +1,17 @@
+flask webserver 框架，百度地图Api，地图操作。
+
+实现功能：web页面嵌入百度地图，打开页面后，js从后端获取marker标记的经纬度坐标，在百度地图上生成marker。在地图上点击任意位置，可生成新的marker存入后端数据库，刷新页面，即可显示新的marker。
+
+
+开发者需要到百度地图Api官网申请开发帐号，得到ak，替换app/templates/home.html如下语句的ak参数：
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=relplace_ak_use_your_ak_here"></script>
+
+建议使用虚拟环境，以便隔离项目库和python的第三方库。
+
+下载项目文件，解压缩后，在目录下执行如下命令：
+1 pip install virtualenv
+2 virtualenv flask
+3 ./flask/bin/pip install flask simplejson
+3 ./flask/bin/pip install flask-wtf==0.8.4
+4 运行./flask/bin/python app/webser.py
+5 浏览器打开'localhost:5000'，即可看到效果。
